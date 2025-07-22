@@ -70,7 +70,7 @@ function wpm_get_language_switcher( $type = 'list', $show = 'both' ) {
 	if ( ! in_array( $show, array( 'both', 'flag', 'name' ), true ) ) {
 		$show = 'both';
 	}
-
+	
 	$vars = array(
 		'languages'   => wpm_get_languages(),
 		'lang'        => wpm_get_language(),
